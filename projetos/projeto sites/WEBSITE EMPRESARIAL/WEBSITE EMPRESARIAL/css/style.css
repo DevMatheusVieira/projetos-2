@@ -1,0 +1,1274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Love";}
+
+    @font-face {
+        font-family:'Love';
+        src: url(Library\ 3\ am.otf) format(opentype);
+    }
+
+
+    @font-face {
+        font-family:'league';
+        src: url(league-spartan.bold.otf) format(opentype);
+    }
+
+
+
+    /*MENU*/
+    header {
+        width: 100%;
+        background-color: black;
+        height: 50px;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+    #menu ul {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        transform: translate(0%,-45%);
+        
+    }
+    
+
+    #menu ul li{
+        display: inline;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+
+    #menu ul li a{
+    text-decoration: none;
+    color: white;
+    }
+
+    #menu a:hover {
+        color: rgb(224, 35, 35);
+        transition: 400ms;
+    }
+
+    #menu a:active a:link a:visited{
+        color: white;
+    }
+
+    #menu img{
+        position: absolute ;
+        top: 50%;
+        left: 1%;
+        transform: translate(0%, -50%);
+        width: 100px;
+        
+    }
+
+
+
+
+/*BANNER - INDEX*/
+
+    #banner {display: flex;
+         justify-content: center;
+        background-color: darkorchid;
+        
+        
+    }
+
+    #caixa-texto-botao {
+        width: 50%;
+        text-align: center;
+        height: 300px;
+        background-color: #CCE6FF;
+
+        
+    }
+    #caixa-texto-filho {
+        position: relative;
+        top: 45%;
+        transform: translate(0%, -50%);
+    }
+
+
+    #caixa-texto-botao h1{
+        padding: 3% 20%;
+       
+        
+    }
+
+    #caixa-texto-botao h2 a{    
+        padding: 2% 5%; 
+        font-size: 20px;
+        width: 30%;
+        color: white;
+        background-color: black;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+
+
+    #caixa-texto-botao  a:hover{
+        background-color: grey;
+        transition: 400ms;
+        
+       
+    }
+
+    #caixa-imagem {
+        background-color: #CCE6FF;
+        text-align: center;
+        width: 50%;
+        height: 300px;
+       
+    }
+
+    #caixa-imagem img{
+        width: 70%;
+        position: relative;
+        top: 47%;
+        transform: translate(0%, -50%);
+        
+        
+       
+    }
+
+
+
+    #caixa-marcas-pai {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 100%;
+    }
+    
+
+    #marcas-index {
+        margin-top:20px ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        min-width: 300px;
+    }
+
+
+    #marcas-index img {
+        width: 280px;
+        margin: 0px 125px;
+        
+    }
+
+
+    
+
+
+    /*SOBRE-NOS*/
+
+    #body-sobre-nos {
+        padding-bottom: 500px;
+    }
+
+    #container-vermelho-sobre-nos {
+        width: 100%;
+        height: 325px;
+        background-color: #CCE6FF;
+        text-align: center;
+    }
+
+    #container-vermelho-sobre-nos h1{
+        font-size: 40px;
+        position: relative;
+        top: 35%;
+        font-family: "league";
+        color: rgb(0, 0, 0);
+
+    }
+
+
+    #container-vermelho-sobre-nos img {
+        width: 800px;
+        height: 400px;
+        margin-top: 180px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    #container-vermelho-sobre-nos p { 
+        font-size: 10px;
+        font-family: "league";
+    }
+
+
+
+
+
+    #container-paragrafo p {
+        margin-bottom: 15px;
+        text-align: justify;
+        padding: 0px 400px;
+        font-family: "league";
+        position: relative;
+        top: 360px;
+        font-size: 18px;
+        
+    }
+
+
+    /*CONTATOS*/
+
+    #container-vermelho-contatos {
+        position: relative;
+        width: 100%;
+        height: 325px;
+        background-color: #CCE6FF;
+        text-align: center
+        ;
+        
+    }
+
+
+    #container-vermelho-contatos h1{
+        position: relative;
+        top: 100px;
+        font-family:"league";
+        font-size: 40px;
+        
+    }
+    
+    #caixa-contatos {
+        text-align: start;
+        position: relative;
+        top: 180px;
+        left: 50%;
+        transform: translate(-50%,0%);
+        width: 500px;
+        height: 600px;
+        background-color: black;
+        border-radius: 20px;
+        font-family: "league";
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        margin:  0px 40px;
+        
+    }
+
+    #form label {
+        font-family: "league";
+        margin-top:  20px;
+        color: white;
+    }
+
+    #form input {
+        padding: 20px;
+        font-family: "league";
+        
+    }
+
+    #form textarea {
+        resize: none;
+        font-family: "league";
+        padding: 20px;
+    }
+   
+
+
+    #form button {
+        margin-top: 30px;
+        padding: 20px;
+        font-family: "league";
+      
+    }
+
+
+    #form button:hover {
+        background-color:rgb(224, 35, 35) ;
+        transition: 400ms;
+    }
+
+    #caixa-filho-redes {
+        display: flex;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    #caixa-filho-redes img{ width: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    /*AGRADECIMENTOS*/
+
+    #corpo-index-agradecimentos {
+        background-color: rgb(224, 35, 35);
+    }
+
+    #caixa-agradecimento {
+        font-family: "league";
+        text-align: center;
+        position: relative;
+        margin-top: 380px;
+    }
+
+    #caixa-agradecimento h1{
+        font-family: "league";
+        }
+
+
+    #caixa-agradecimento p {
+        font-family: "league";
+        font-size: 15px;
+    }
+
+    #caixa-agradecimento p a{
+        font-family: "league";
+    }
+
+
+    #caixa-agradecimento p a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #caixa-agradecimento p a:hover {
+        color: grey;
+    }
+
+    #caixa-agradecimento a:visited a:link a:active {
+        color: white;
+    }
+
+    /*PRODUTOS*/
+
+    #corpo-produtos {
+        padding-bottom: 200px;
+    }
+
+    #caixa-texto-produtos {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-color:  #CCE6FF ;
+    }
+
+    #caixa-titulo-e-texto-filho {
+        
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        transform: translate(0%,-50%);
+        text-align: justify;
+        width: 600px;
+    }
+
+    #caixa-titulo-e-texto-filho h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-family: "league";
+        text-align: center;
+    }
+
+    #caixa-titulo-e-texto-filho p {
+        font-size: 19px;
+        font-family: "league";
+        
+    }
+
+  
+
+
+
+
+
+
+
+
+    .classe-section-produtos{
+        display: flex;
+    }
+
+    .classe-section-produtos div{
+        position: relative;
+
+        width: 50%;
+        height: 550px;
+        text-align: center;
+
+
+    }
+
+    .classe-section-produtos div img{
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .texto-produtos-carros {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-color:  #CCE6FF;
+        border-radius: 20px;
+        
+        
+    }
+
+
+    .texto-produtos-carros ul{
+        list-style: none;
+        font-family: "league";
+    }
+
+    .texto-produtos-carros h1{
+        margin-top: 20px;
+        
+    }
+
+    .texto-produtos-carros p{
+        margin-bottom: 20px;
+        padding: 1%;
+        
+    }
+
+    .estilo-fonte-produtos {
+        font-family: "league";
+    }
+    /*NOVIDADES*/
+
+
+    #container-vermelho-novidades{
+        position: relative;
+        width: 100%;
+        height: 325px;
+        background-color: #CCE6FF;
+        text-align: center;
+        
+    }
+
+
+    #caixa-pai-novidades {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+        width: 80%;
+        height: 670px;
+        background-color: black;
+        border-radius: 30px;
+    }
+
+
+    #caixa-filho-novidades {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 25px ;
+        width: 95%;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+    }
+
+
+    #container-vermelho-novidades h1{
+        position: absolute;
+        font-family: "league";
+        font-size: 35px;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+        
+    }
+
+
+
+    #caixa-filho-texto-novidades {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+       
+    
+    }
+
+    #caixa-filho-texto-novidades h2 {
+        font-family: "league";
+        font-size: 100%;
+    }
+
+    #caixa-filho-texto-novidades p {
+        font-family: "league";
+        font-size: 90%;
+    }
+   
+
+
+   
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 3200px) and (min-width:2000px) {
+        /*MENU*/ 
+        #caixa-imagem img{
+            width: 800px;
+            
+            
+            
+           
+        } 
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 1440px) and (min-width:1025px) {
+        /*MENU*/ 
+
+        #menu ul li {
+            font-size: 15px;
+        }
+
+        #menu img{
+            width: 100px;
+        }
+        
+        /*BANNER INDEX*/
+
+
+        #caixa-texto-botao h1{
+            padding: 3% 20%;
+            font-size: 29px;
+           
+            
+        }
+
+        #caixa-imagem img{
+            width: 510px;
+            
+            
+            
+           
+        }
+        
+        /*SOBRE-NOS*/
+
+        #container-paragrafo p {
+            
+            padding: 0px 170px;
+            
+        
+            
+        }
+
+        /*PRODUTOS*/
+
+        #caixa-titulo-e-texto-filho {
+        
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: justify;
+            width: 600px;
+        }
+
+        .classe-section-produtos div img{
+           
+        width: 500px ;
+            
+        }
+
+
+      
+    
+       
+        
+      
+    }
+    
+
+    @media screen and (max-width: 1024px) and (min-width:769px) {
+
+        /*MENU*/
+        #menu ul li {
+            font-size: 12px;
+            padding: 6px;
+        }
+
+        #menu img{
+            width: 80px;
+        }
+        /*BANNER-INDEX*/
+        #caixa-texto-botao h1{
+            padding: 3% 20%;
+            font-size: 19px;
+           
+            
+        }
+
+        #caixa-texto-botao h2 a{    
+            padding: 2% 5%; 
+            font-size: 15px;
+        
+        }
+
+
+        #caixa-imagem img{
+            width: 350px;
+            
+            
+            
+           
+        }
+
+        /*SOBRE-NOS*/
+
+        #container-paragrafo p {
+            
+            padding: 0px 50px;
+            
+        
+            
+        }
+
+        #container-vermelho-sobre-nos img {
+            width: 600px;
+            height: 400px;
+        
+        }
+
+        /*PRODUTOS*/
+        .classe-section-produtos{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .classe-section-produtos div{
+            position: relative;
+            width: 100%;
+            height: 500px;
+        }
+
+        #caixa-titulo-e-texto-filho {
+        
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: justify;
+            width: 600px;
+        }
+
+        .classe-section-produtos div img{
+           
+        width: 700px ;
+            
+        }
+    }
+    
+
+    @media screen and (max-width: 768px) and (min-width:426px) {
+        /*MENU*/ 
+        #menu ul li {
+            font-size: 7px;
+            padding: 2px;
+        }
+
+        #menu img{
+            width: 60px;
+        }
+
+        /*BANNER-INDEX*/
+
+        #banner {display: flex;
+            flex-direction: column;
+            justify-content: center;
+           background-color: darkorchid;
+           }
+
+           #caixa-texto-botao {
+            order: 2;
+            width: 100%;
+            height: 200px;
+            
+            
+        }
+    
+        #caixa-imagem {
+            order: 1;
+            
+            width: 100%;
+            height: 300px;
+           
+        }
+
+       
+
+        #caixa-imagem img{
+            width: 425px;
+            
+            
+            
+           
+        }
+
+        #caixa-texto-filho {
+            position: relative;
+            top: 30%;
+            transform: translate(0%, -50%);
+        }
+
+        #caixa-texto-botao h1{
+            padding: 3% 20%;
+            font-size: 22px;
+           
+            
+        }
+
+        #caixa-texto-botao h2 a{    
+            padding: 2% 5%; 
+            font-size: 15px;
+        
+        }
+
+        /*MARCAS-INDEX*/
+
+        
+    
+        #marcas-index img {
+            width: 150px;
+            margin: 0px 125px;
+            
+        }
+
+        /*SOBRE-NOS*/
+
+        #container-vermelho-sobre-nos h1{
+            font-size: 25px;
+            position: relative;
+            top: 35%;
+            font-family: "league";
+            color: rgb(0, 0, 0);
+    
+        }
+
+        #container-vermelho-sobre-nos img {
+            
+            width: 380px;
+            height: 250px;
+        
+        }
+
+        #container-vermelho-sobre-nos p { 
+            margin-top: 10px;
+            font-size: 7px;
+            font-family: "league";
+        }
+
+        #container-paragrafo p {
+            font-size: 18px;
+            padding: 0px 50px;
+            top: 200px;
+            
+        
+            
+        }
+
+        /*CONTATOS*/
+
+        #caixa-contatos {
+            width: 300px;
+            height: 620px;  
+        }
+    
+        #form {
+            margin:  0px 20px;
+        }
+      
+
+        /*PRODUTOS*/
+
+
+        .classe-section-produtos{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .classe-section-produtos div{
+            position: relative;
+            width: 100%;
+            height: 350px;
+        }
+
+        #caixa-titulo-e-texto-filho {
+        
+            
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+        }
+
+        .classe-section-produtos div img{
+           
+        width: 400px ;
+            
+        }
+
+        
+    
+        #caixa-titulo-e-texto-filho h1 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: "league";
+            text-align: center;
+        }
+    
+        #caixa-titulo-e-texto-filho p {
+            font-size: 18px;
+            font-family: "league";
+            
+        }
+
+        .texto-produtos-carros {
+            width: 400px;
+            border-radius: 20px;
+            
+            
+        }    
+
+    }
+    
+
+    
+
+    @media screen and (max-width:425px) and (min-width:321px) {
+        /*MENU*/ 
+        #menu ul li {
+            
+            font-size: 9px;
+            padding: 5px;
+        }
+
+        #menu img{
+            width: 0px;
+        }
+
+        /*BANNER-INDEX*/
+
+        #banner {display: flex;
+            flex-direction: column;
+            justify-content: center;
+           background-color: darkorchid;
+           }
+
+           #caixa-texto-botao {
+            order: 2;
+            width: 100%;
+            height: 150px;
+            
+        }
+    
+        #caixa-imagem {
+            order: 1;
+            width: 100%;
+            height: 200px;
+           
+        }
+
+        #caixa-imagem img{
+            width: 300px;
+            
+            
+            
+           
+        }
+
+        #caixa-texto-filho {
+            position: relative;
+            top: 30%;
+            transform: translate(0%, -50%);
+        }
+
+        #caixa-texto-botao h1{
+            padding: 3% 20%;
+            font-size: 15px;
+           
+            
+        }
+
+        #caixa-texto-botao h2 a{    
+            padding: 2% 5%; 
+            font-size: 15px;
+        
+        }
+
+        /*MARCAS-INDEX*/
+    
+        #marcas-index img {
+            width: 280px;
+            margin: 0px 0px;
+            
+        }
+
+        /*SOBRE-NOS*/
+
+        #container-vermelho-sobre-nos h1{
+            font-size: 25px;
+            position: relative;
+            top: 35%;
+            font-family: "league";
+            color: rgb(0, 0, 0);
+    
+        }
+
+        #container-vermelho-sobre-nos img {
+            
+            width: 300px;
+            height: 180px;
+        
+        }
+
+        #container-vermelho-sobre-nos p { 
+            margin-top: 10px;
+            font-size: 5px;
+            font-family: "league";
+        }
+
+        #container-paragrafo p {
+            font-size: 12px;
+            padding: 0px 50px;
+            top: 150px;
+            
+        
+            
+        }
+
+        /*CONTATOS*/
+
+
+        #container-vermelho-contatos h1{
+            font-size: 30px;
+        }
+
+        #caixa-contatos {        
+            width: 300px;
+            height: 620px;
+        }
+    
+        #form {
+            margin:  0px 20px;
+        }
+
+
+        /*PRODUTOS*/
+        .classe-section-produtos{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .classe-section-produtos div{
+            position: relative;
+            width: 100%;
+            height: 300px;
+        }
+        
+
+        #caixa-titulo-e-texto-filho {
+        
+            
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 300px;
+        }
+
+        .classe-section-produtos div img{
+           
+        width: 300px ;
+            
+        }
+
+        
+    
+        #caixa-titulo-e-texto-filho h1 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: "league";
+            text-align: center;
+        }
+    
+        #caixa-titulo-e-texto-filho p {
+            font-size: 15px;
+            font-family: "league";
+            
+        }
+
+        .texto-produtos-carros {
+            width: 300px;
+            border-radius: 20px;
+            
+            
+        }    
+
+
+    }
+
+    @media screen and (max-width:320px) and (min-width:280px) {
+        /*MENU*/ 
+        #menu ul li {
+            
+            font-size: 8px;
+            padding: 3px;
+        }
+
+        #menu img{
+            width: 0px;
+        }
+
+        /*BANNER-INDEX*/
+
+        #banner {display: flex;
+            flex-direction: column;
+            justify-content: center;
+           background-color: darkorchid;
+           }
+
+           #caixa-texto-botao {
+            order: 2;
+            width: 100%;
+            height: 150px;
+            
+        }
+    
+        #caixa-imagem {
+            order: 1;
+            width: 100%;
+            height: 200px;
+           
+        }
+
+        #caixa-imagem img{
+            width: 280px;
+            
+            
+            
+           
+        }
+
+        #caixa-texto-filho {
+            position: relative;
+            top: 30%;
+            transform: translate(0%, -50%);
+        }
+
+        #caixa-texto-botao h1{
+            padding: 3% 20%;
+            font-size: 15px;
+           
+            
+        }
+
+        #caixa-texto-botao h2 a{    
+            padding: 2% 5%; 
+            font-size: 15px;
+        
+        }
+
+       /*MARCAS-INDEX*/
+    
+       #marcas-index {
+        margin-top:20px ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 100px;
+    }
+
+    #marcas-index img {
+        width: 120px;
+        margin: 0px 0px;
+        
+    }
+
+    /*SOBRE-NOS*/
+
+    #container-vermelho-sobre-nos h1{
+        font-size: 25px;
+        position: relative;
+        top: 35%;
+        font-family: "league";
+        color: rgb(0, 0, 0);
+
+    }
+
+    #container-vermelho-sobre-nos img {
+        
+        width: 280px;
+        height: 180px;
+    
+    }
+
+    #container-vermelho-sobre-nos p { 
+        margin-top: 10px;
+        font-size: 5px;
+        font-family: "league";
+    }
+
+    #container-paragrafo p {
+        font-size: 16px;
+        padding: 0px 20px;
+        top: 150px;
+        
+    
+        
+    }
+
+    /*CONTATOS*/
+
+    #container-vermelho-contatos h1{
+        font-size: 30px;
+    }
+
+    #caixa-contatos {
+       
+        width: 250px;
+        height: 620px;
+        
+        
+    }
+
+    #form {
+        margin:  0px 20px;
+    }
+
+    /*PRODUTOS*/
+    .classe-section-produtos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .classe-section-produtos div{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    
+    #caixa-titulo-e-texto-filho {
+    
+        
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 250px;
+    }
+
+    .classe-section-produtos div img{
+       
+    width: 250px ;
+        
+    }
+
+    
+
+    #caixa-titulo-e-texto-filho h1 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: "league";
+        text-align: center;
+    }
+
+    #caixa-titulo-e-texto-filho p {
+        font-size: 15px;
+        font-family: "league";
+        
+    }
+
+    .texto-produtos-carros {
+        width: 250px;
+        border-radius: 20px;
+        
+        
+    }   
+
+
+    }
+
+    
+        
+    
